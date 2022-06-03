@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=DotGothic16&display=swap');
+
+* {
+    font-family:'DotGothic16', sans-serif;
+}
+
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}

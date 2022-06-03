@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.navbar {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title{
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.site-title a:hover{
+  color: red;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a:hover{
+ color: red;
+}
