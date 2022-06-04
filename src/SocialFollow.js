@@ -4,7 +4,6 @@ import {
     faStackOverflow,
     faGithub,
     faLinkedin,
-    faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 
 export default function SocialFollow() {
